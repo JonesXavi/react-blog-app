@@ -34,9 +34,13 @@ Once you've signed up for Okta, follow these steps below to configure it:
 Once completed, create a ```.env``` file in the root directory and put the below code:
 
 ```OKTA_ORG_URL=<ORG URL>```
+
 ```OKTA_CLIENT_ID=<CLIENT ID>```
+
 ```OKTA_CLIENT_SECRET=<CLIENT SECRET ID>```
+
 ```REDIRECT_URL=<REDIRECT URL>```
+
 ```RANDOM_SECRET_WORD='<SUPER STRONG, WEIRD & RANDOM WORD>```
 
 * OKTA_ORG_URL - Find this in the top right corner of OKTA dashboard.
